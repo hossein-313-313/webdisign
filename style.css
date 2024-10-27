@@ -1,0 +1,15 @@
+*{
+
+direction: ltr;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+header{
+
+padding: 5px;
+border: 2px solid black;
+
+
+}
