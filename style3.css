@@ -1,0 +1,80 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    direction: ltr;
+}
+
+header {
+
+    background-color: #c6baeb;
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+
+
+
+
+main>table {
+
+    width: 50%;
+    margin: 10px auto;
+}
+
+tr,
+td,
+th {
+
+    border: 1px solid #281d42;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 5px;
+}
+
+th {
+
+    background-color: #281d42;
+    color: white;
+}
+
+tr:nth-child(odd) {
+
+    background-color: #c6baeb;
+}
+
+tr:nth-child(even) {
+
+    background-color: #f7f4ff;
+}
+
+#number {
+
+    background-color: #c6baeb;
+    padding: 25px;
+    /* color: white; */
+}
+
+#envelope {
+
+    float: right;
+}
+
+#pc {
+
+    /* color: white; */
+    float: right;
+    padding: 5px;
+}
+main>div{
+    float: left;
+    width: 33.3%;
+}
+header>h1{
+    clear: left;
+}
+div.hrSection{
+    padding: 50px;
+}
