@@ -1,0 +1,52 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+div.fixed{
+
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px 25px 5px 15px;
+    padding: 5px 5px;
+    background-color: white;
+    
+    
+}
+img{
+
+    float: none;
+    width: 150px;
+    text-align: center;
+    
+
+}
+header{
+
+    font-size: larger;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    
+}
+
+#image{
+  
+  left: 200px ;
+
+
+}
+main{
+    width: 50%;
+    border: 1px solid black;
+    margin: 12px auto;
+}
+
