@@ -1,3 +1,77 @@
-*{
-    font-family: vazirmatn fd;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    direction: rtl;
+}
+main {
+    height: 600px;
+    background-image: url(image/gratisography-cool-cat-800x525.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+}
+#pageNo{
+    position: absolute;
+    padding: 15px;
+    left: 10px;
+    color: white;
+
+}
+main>p {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    width: 50%;
+    color: white;
+}
+main>i {
+    color: red;
+}
+#style3 {
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    float: right;
+    left: 1220px;
+    width: 30px;
+    color: white;
+    font-size: 35px;
+    display: block;
+}
+#style3:hover {
+    background-color: rgb(128, 128, 128, 0.6);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey
+}
+#style4{
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    float: right;
+    left: 10px;
+    width: 30px;
+    color: white;
+    font-size: 35px;
+    display: block
+}
+#style4:hover{
+    background-color: rgb(128, 128, 128, 0.6);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey
+}
+section>div{
+    font-size: 150px;
+    top: 500px;
+    float: left;
+    right: 715px;
+    color: gray;
+    width: fit-content;
+    height: auto;
+}
+section>div:hover{
+    background-color: rgb(128, 128, 128, 0.6);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey
 }
