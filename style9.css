@@ -1,0 +1,87 @@
+*{
+    direction: rtl;
+    margin: 0;
+    box-sizing:border-box;
+}
+main{
+    height: 400px;
+    background-image: url(image1/جنگل.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+main>div{
+    padding: 5px 5px;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+#leftArrow{
+    position: absolute;
+    top:200px;
+    left: 30px;
+}
+main>div:hover{
+    background-color: rgb(128, 128, 128, 0.6);
+    border-radius: 5px 20px;
+    box-shadow: 5px 5px 10px grey
+}
+#rightArrow{
+    top: 200px;
+    right: 30px;
+    position: absolute;
+    padding: 5px 5px;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+#img1{
+    width: 260px;
+    padding: 10px ;
+}
+section{
+    width: 100%;
+}
+#menu{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+ul{
+    direction: ltr;
+    color: white;
+    background-color: rgb(51 51 51);
+}
+li{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    padding: 15px 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgb(4, 169, 109);
+}
+#help{
+    background-color: rgb(4, 169, 109) ;
+    float: right;   
+}
+footer{
+    background-color: rgb(51, 51, 51);
+}
+#imgholy{
+      text-align: center; 
+      padding: 20px;
+}
+p{
+    font-size: large;
+    color: white;
+    text-align: right;
+}
